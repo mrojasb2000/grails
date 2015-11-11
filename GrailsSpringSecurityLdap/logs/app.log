@@ -1,0 +1,39 @@
+2015-11-11 12:50:26,692 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2015-11-11 12:50:26,717 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2015-11-11 12:50:32,116 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2015-11-11 12:50:32,120 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2015-11-11 12:51:15,757 [localhost-startStop-1] INFO  [localhost].[/TekSecurityLDAP2]  - Initializing Spring root WebApplicationContext
+2015-11-11 12:51:35,264 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'create-drop' for datasource DEFAULT
+2015-11-11 12:51:40,648 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2015-11-11 12:51:40,680 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2015-11-11 12:51:48,281 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/mauricio.rojas/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2015-11-11 12:51:53,281 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_role drop constraint FK_apcc8lxk2xnug8377fatvbn04 if exists
+2015-11-11 12:51:53,281 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Tabla "USER_ROLE" no encontrada
+Table "USER_ROLE" not found; SQL statement:
+alter table user_role drop constraint FK_apcc8lxk2xnug8377fatvbn04 if exists [42102-176]
+2015-11-11 12:51:53,282 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_role drop constraint FK_it77eq964jhfqtu54081ebtio if exists
+2015-11-11 12:51:53,282 [localhost-startStop-1] ERROR hbm2ddl.SchemaExport  - Tabla "USER_ROLE" no encontrada
+Table "USER_ROLE" not found; SQL statement:
+alter table user_role drop constraint FK_it77eq964jhfqtu54081ebtio if exists [42102-176]
+2015-11-11 12:51:55,397 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@15308bb: startup date [Wed Nov 11 12:51:39 CLST 2015]; parent: Root WebApplicationContext]
+2015-11-11 12:51:57,698 [localhost-startStop-1] WARN  intercept.RequestmapFilterInvocationDefinition  - Exception initializing; this is ok if it's at startup and due to GORM not being initialized yet since the first web request will re-initialize. Error message is: Method on class [org.example.Requestmap] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+2015-11-11 12:52:06,143 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2015-11-11 12:52:06,248 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2015-11-11 12:52:06,255 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2015-11-11 12:52:06,547 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2015-11-11 12:52:09,557 [localhost-startStop-1] INFO  [localhost].[/TekSecurityLDAP2]  - Initializing Spring FrameworkServlet 'grails'
+2015-11-11 12:52:10,003 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2015-11-11 12:52:15,136 [http-bio-8080-exec-5] INFO  [localhost].[/TekSecurityLDAP2]  - Initializing Spring FrameworkServlet 'gsp'
+2015-11-11 12:52:15,136 [http-bio-8080-exec-5] INFO  [localhost].[/TekSecurityLDAP2]  - GSP servlet initialized
+2015-11-11 13:00:38,955 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in org.example.Requestmap
+2015-11-11 13:00:38,955 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in org.example.Requestmap
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in org.example.Requestmap
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in org.example.Role
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in org.example.Role
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in org.example.Role
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in org.example.User
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in org.example.User
+2015-11-11 13:00:38,956 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in org.example.User
+2015-11-11 13:00:38,957 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in org.example.UserRole
+2015-11-11 13:00:38,957 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in org.example.UserRole
+2015-11-11 13:00:38,957 [Thread-7] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in org.example.UserRole
