@@ -149,39 +149,3 @@ grails.plugin.springsecurity.ldap.authenticator.attributesToReturn = ['mail', 'c
 grails.plugin.springsecurity.securityConfigType = "Requestmap"
 grails.plugin.springsecurity.requestMap.className = 'org.example.Requestmap'
 
-//grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-//	'/':                ['permitAll'],
-//	'/index':           ['permitAll'],
-//	'/index.gsp':       ['permitAll'],
-//	'/assets/**':       ['permitAll'],
-//	'/**/js/**':        ['permitAll'],
-//	'/**/css/**':       ['permitAll'],
-//	'/**/images/**':    ['permitAll'],
-//	'/**/favicon.ico':  ['permitAll']
-//]
-
-/*
-grails.plugin.springsecurity.ldap.context.managerDn = 'csm23admbpm'
-grails.plugin.springsecurity.ldap.context.managerPassword = 'csm..2013'
-grails.plugin.springsecurity.ldap.context.server = 'ldap://wndkmadprd01.ironmountain.cl:389'
-grails.plugin.springsecurity.ldap.authorities.ignorePartialResultException = true
-
-
-grails.plugin.springsecurity.ldap.search.searchSubtree = true
-grails.plugin.springsecurity.ldap.auth.hideUserNotFoundExceptions = false
-grails.plugin.springsecurity.ldap.search.attributesToReturn = ['mail', 'displayName'] // extra attributes you want returned
-grails.plugin.springsecurity.providerNames = ['ldapAuthProvider'] //, 'anonymousAuthenticationProvider'
- 
-// role-specific LDAP config
-grails.plugin.springsecurity.ldap.useRememberMe = false
-grails.plugin.springsecurity.ldap.authorities.retrieveGroupRoles = false
-grails.plugin.springsecurity.ldap.authorities.retrieveDatabaseRoles = true
-grails.plugin.springsecurity.ldap.authorities.groupSearchBase = 'ou=CSP16,dc=cstkmimcl,dc=cl'
-
-grails.plugin.springsecurity.ldap.search.base = 'dc=cstkmimcl,dc=cl'
-grails.plugin.springsecurity.ldap.search.filter = '(sAMAccountName={0})'
-*/
-
-//grails.plugin.springsecurity.ldap.authorities.groupSearchBase = 'dc=cstkmimcl,dc=cl'
-//grails.plugin.springsecurity.ldap.authorities.groupSearchFilter = 'member={0}'
-
